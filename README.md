@@ -47,11 +47,11 @@ npm run dev
 Create a `.env` file from the example:
 
 ```env
-# Your Unkey API key (from the LiveAnswer AI Reseller dashboard)
-RESELLER_API_KEY=unkey_xxx
+# Your API key (from the LiveAnswer AI Reseller dashboard)
+RESELLER_API_KEY=evo_*
 
 # URL of the LiveAnswer AI Reseller platform
-NEXT_PUBLIC_EVO_HOST=http://localhost:3000
+NEXT_PUBLIC_EVO_HOST=https://reseller.evo.tech
 ```
 
 ## Project Structure
