@@ -1,0 +1,19 @@
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Acme Services - Embed Example',
+  description: 'Example project demonstrating Evo AI embedded dashboard',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className="min-h-screen bg-gray-50">{children}</body>
+    </html>
+  )
+}
