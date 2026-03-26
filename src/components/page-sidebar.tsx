@@ -41,7 +41,7 @@ export function PageSidebar() {
       </nav>
       <div className="border-t border-gray-200 p-3">
         <p className="text-[10px] text-gray-400">
-          Pages tagged &quot;Evo&quot; are embedded from the Evo AI platform.
+          Pages tagged &quot;Evo&quot; are embedded from the LiveAnswer AI platform.
           The rest are your own app pages.
         </p>
       </div>

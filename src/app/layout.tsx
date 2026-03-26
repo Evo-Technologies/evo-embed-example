@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Acme Services - Embed Example',
-  description: 'Example project demonstrating Evo AI embedded dashboard',
+  description: 'Example project demonstrating LiveAnswer AI embedded dashboard',
 }
 
 export default function RootLayout({

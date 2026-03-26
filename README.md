@@ -1,16 +1,16 @@
 # Evo Embed Example
 
-A working example of how to embed Evo AI dashboards into a third-party application using iframe authentication.
+A working example of how to embed LiveAnswer AI dashboards into a third-party application using iframe authentication.
 
 ## How It Works
 
 1. A customer logs into **your app** (this example uses a simple email cookie)
-2. Your backend calls the Evo AI embed auth API with your API key and the customer's email
+2. Your backend calls the LiveAnswer AI embed auth API with your API key and the customer's email
 3. The API returns a short-lived JWT token and a list of available pages
 4. The `embed.js` snippet creates an iframe and handles token refresh automatically
 
 ```
-Your App                          Evo AI Platform
+Your App                          LiveAnswer AI Platform
 --------                          ---------------
 Customer logs in
         |
@@ -47,10 +47,10 @@ npm run dev
 Create a `.env` file from the example:
 
 ```env
-# Your Unkey API key (from the Evo AI Reseller dashboard)
+# Your Unkey API key (from the LiveAnswer AI Reseller dashboard)
 RESELLER_API_KEY=unkey_xxx
 
-# URL of the Evo AI Reseller platform
+# URL of the LiveAnswer AI Reseller platform
 NEXT_PUBLIC_EVO_HOST=http://localhost:3000
 ```
 

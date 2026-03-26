@@ -11,7 +11,7 @@ export default async function FullEmbedPage() {
       </div>
       <footer className="shrink-0 border-t border-gray-200 bg-white px-4 py-3">
         <p className="text-center text-sm text-gray-500">
-          Powered by Evo AI
+          Powered by LiveAnswer AI
         </p>
       </footer>
     </div>
